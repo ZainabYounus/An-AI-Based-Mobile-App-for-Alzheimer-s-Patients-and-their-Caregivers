@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#7EF6EA</color>
+    <color name="linkColor">#2F45BD</color>
+    <color name="buttonColor">#2B837B</color>
+    <color name="dashboardIcons">#004544</color>
+    <color name="gradientcolor1">#0B3923</color>
+    <color name="gradientcolor2">#1C602D</color>
+
+
+
+<!--    FF03DAC5-->
+</resources>

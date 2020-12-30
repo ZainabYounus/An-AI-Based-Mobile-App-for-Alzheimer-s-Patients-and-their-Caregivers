@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/locationTracking"
+        android:icon="@drawable/location_tracking"
+        android:title="Location Tracking"/>
+
+    <item android:id="@+id/pt_aboutApp"
+    android:icon="@drawable/about_app"
+    android:title="About AlzCure"/>
+
+
+    <item android:id="@+id/pt_signOut"
+    android:icon="@drawable/logout"
+    android:title="Log Out"/>
+
+</menu>

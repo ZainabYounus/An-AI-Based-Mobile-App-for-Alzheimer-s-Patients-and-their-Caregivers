@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+        <TextView
+            android:id="@+id/mainHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/textview_design"
+            android:fontFamily="@font/aclonica"
+            android:padding="20dp"
+            android:text="7 Stages of Alzheimer's Disease"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+<!--        STAGE#01-->
+        <TextView
+            android:id="@+id/stageOneHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stage 1: No Impairment"
+            android:textSize="20sp"
+            android:background="@drawable/sub_heading_design"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/stageOneText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="arial"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="7dp"/>
+
+<!--        STAGE#02-->
+        <TextView
+            android:id="@+id/stageTwoHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stage 2: Very Mild Decline"
+            android:textSize="20sp"
+            android:background="@drawable/sub_heading_design"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/stageTwoText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="arial"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="7dp"/>
+
+        <!--        STAGE#03-->
+        <TextView
+            android:id="@+id/stageThreeHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stage 3: Mild Decline"
+            android:textSize="20sp"
+            android:background="@drawable/sub_heading_design"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/stageThreeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="arial"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="7dp"/>
+
+        <!--        STAGE#04-->
+        <TextView
+            android:id="@+id/stageFourHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stage 4: Moderate Decline"
+            android:textSize="20sp"
+            android:background="@drawable/sub_heading_design"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/stageFourText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="arial"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="7dp"/>
+
+        <!--        STAGE#05-->
+        <TextView
+            android:id="@+id/stageFiveHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stage 5: Moderately Severe Decline"
+            android:textSize="20sp"
+            android:background="@drawable/sub_heading_design"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/stageFiveText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="arial"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="7dp"/>
+
+        <!--        STAGE#06-->
+        <TextView
+            android:id="@+id/stageSixHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stage 6: Severe Decline"
+            android:textSize="20sp"
+            android:background="@drawable/sub_heading_design"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/stageSixText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="arial"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="7dp"/>
+
+        <!--        STAGE#07-->
+        <TextView
+            android:id="@+id/stageSevenHeading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stages 7: Very Severe Decline"
+            android:textSize="20sp"
+            android:background="@drawable/sub_heading_design"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/stageSevenText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="arial"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:padding="7dp"/>
+
+    </LinearLayout>
+</ScrollView>

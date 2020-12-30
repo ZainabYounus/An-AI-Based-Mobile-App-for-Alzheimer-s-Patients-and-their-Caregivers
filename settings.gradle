@@ -1,0 +1,2 @@
+rootProject.name='AlzheimersApp'
+include ':app'

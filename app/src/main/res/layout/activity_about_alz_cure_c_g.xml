@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CaregiverModule.AboutAlzCureCG">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="About AlzCure"
+        android:textColor="@color/white"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:fontFamily="@font/aclonica"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/textview_design"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="30dp"
+        android:paddingLeft="30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AlzCure is an Artificially Intelligent mobile application to assist an Alzheimer's patient of stage 3-4.
+It has various features to benefit not only the patient but also to help the caregiver in taking care of their loved one.
+\n\nWe care about you and believe in the well being of the patient with the help of AlzCure Application, but it's in no way an alternative to any medical expert consultation and treatment. Please seek guidance from your medical expert and use AlzCure to manage your daily life."
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:padding="15dp"
+        android:fontFamily="arial"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="230dp"
+        android:src="@drawable/colorful_logo"/>
+</LinearLayout>

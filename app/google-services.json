@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "622058998319",
+    "firebase_url": "https://alzcure-89557.firebaseio.com",
+    "project_id": "alzcure-89557",
+    "storage_bucket": "alzcure-89557.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622058998319:android:2ce6d02e35d4564b0614da",
+        "android_client_info": {
+          "package_name": "com.example.alzheimersapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622058998319-dec7cogr7jpk8ago94n2ra514h0eg42h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alzheimersapp",
+            "certificate_hash": "1e4108ca2d66cd8c6faa97ea0b7f1feb92b8bee9"
+          }
+        },
+        {
+          "client_id": "622058998319-0j6fjjh2rn7qelv8vu36i7nau5s9qf4f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmtVJajRzPDAuRxj17NIhbLmWwc7foFR4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622058998319-0j6fjjh2rn7qelv8vu36i7nau5s9qf4f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

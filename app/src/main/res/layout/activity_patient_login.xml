@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/MaterialAppTheme"
+    tools:context=".PatientModule.PatientLogin">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:src="@drawable/colorful_logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/sibling_layout"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"/>
+
+    <LinearLayout
+        android:id="@+id/sibling_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/logo"
+        android:layout_marginBottom="40dp">
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/loginProgressBar"-->
+<!--        android:layout_width="61dp"-->
+<!--        android:layout_height="59dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginStart="180dp"-->
+<!--        android:visibility="invisible"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="@+id/pSignin"-->
+<!--        app:layout_constraintHorizontal_bias="0.009"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.56" />-->
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/emailInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Email"
+            app:boxCornerRadiusBottomEnd="25dp"
+            app:boxCornerRadiusBottomStart="25dp"
+            app:boxCornerRadiusTopEnd="25dp"
+            app:boxCornerRadiusTopStart="25dp"
+            app:boxStrokeColor="@color/buttonColor"
+            app:endIconCheckable="true"
+            app:endIconMode="custom"
+            android:layout_gravity="center">
+
+            <!--        app:endIconDrawable="@android:drawable/ic_input_add"
+                app:endIconTint="@color/colorPrimaryDark"-->
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/emailInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:inputType="textEmailAddress" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/passwordInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="15dp"
+            android:hint="Enter password"
+            app:boxCornerRadiusBottomEnd="25dp"
+            app:boxCornerRadiusBottomStart="25dp"
+            app:boxCornerRadiusTopEnd="25dp"
+            app:boxCornerRadiusTopStart="25dp"
+            app:boxStrokeColor="@color/buttonColor"
+            app:endIconMode="password_toggle"
+            app:endIconTint="@color/buttonColor"
+            android:layout_gravity="center">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/passwordInput"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <Button
+        android:id="@+id/pSignin"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_design"
+        android:fontFamily="cursive"
+        android:onClick="patientLogin"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:theme="@style/AppTheme"
+        android:layout_gravity="center_horizontal"/>
+<!--    android:alpha="0.75"-->
+
+    <Button
+        android:id="@+id/patientRegister"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="352dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="51dp"
+        android:clickable="true"
+        android:text="Don't have an Account? Register Here."
+        android:textAllCaps="false"
+        android:textColor="@color/linkColor"
+        android:textSize="16sp"
+        android:theme="@style/AppTheme"
+        android:onClick="patientRegister"
+        android:layout_gravity="center"></Button>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

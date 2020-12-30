@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:theme="@style/AppTheme">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="90dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/colorful_logo" />
+
+        <Button
+            android:id="@+id/patientLogin"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_design"
+            android:fontFamily="cursive"
+            android:text="Login as Patient"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:onClick="patientLogin"/>
+<!--        android:alpha="0.5"-->
+
+        <Button
+            android:id="@+id/caregiverLogin"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="30dp"
+            android:fontFamily="cursive"
+            android:text="Login as Caregiver"
+            android:background="@drawable/button_design"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:onClick="caregiverLogin"/>
+<!--        android:alpha="0.5"-->
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/buttonColor">
+<!--    android:background="#c8e0fd"-->
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+<!--    android:textColor="#1e57f4"-->
+
+
+
+</RelativeLayout>

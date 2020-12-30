@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">AlzCure</string>
+    <string name="Open">Open navigation drawer</string>
+    <string name="Close">Close navigation drawer</string>
+    <string name="start_new">New</string>
+    <string name="brush">Brush</string>
+    <string name="erase">Erase</string>
+    <string name="save">Save</string>
+    <string name="paint">Paint</string>
+    <string name="sml">Small</string>
+    <string name="med">Medium</string>
+    <string name="lrg">Large</string>
+    <string name="track_location">Track Location</string>
+    <string name="share_location">Share Location</string>
+    <string name="start">Start</string>
+    <string name="device_id">Device Id:</string>
+    <string name="lat_long">Lat/Long:</string>
+    <string name="login">Login</string>
+    <string name="stop">Stop</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="fetching">Fetching…</string>
+
+    <string name="first_stage">"During this stage, Alzheimer’s is not detectable and no memory problems or other symptoms of dementia are evident."</string>
+
+    <string name="second_stage">"The senior may notice minor memory problems or lose things around the house, although not to the point where the memory loss can easily be distinguished from normal age-related memory loss. The person will still do well on memory tests and the disease is unlikely to be detected by loved ones or physicians."</string>
+
+    <string name="third_stage">At this stage, the family members and friends of the senior may begin to notice cognitive problems. Performance on memory tests are affected and physicians will be able to detect impaired cognitive function.
+         \n\nPeople in stage 3 will have difficulty in many areas including:
+        \n- Finding the right word during conversation
+        \n- Organizing and planning
+        \n- Remembering names of new acquaintances
+        \n\nPeople with stage three Alzheimer’s may also frequently lose personal possessions, including valuables."</string>
+
+    <string name="fourth_stage">"In stage four of Alzheimer’s, clear-cut symptoms of the disease are apparent. People with stage four of Alzheimer’s: \n- Have difficulty with simple arithmetic.\n\n- Have poor short-term memory (may not recall what they ate for breakfast, for example).\n- Inability to manage finance and pay bills.\n- May forget details about their life histories"</string>
+
+    <string name="fifth_stage">"During the fifth stage of Alzheimer’s, people begin to need help with many day-to-day activities. People in stage five of the disease may experience:\n\n- Difficulty dressing appropriately.\n- Inability to recall simple details about themselves such as their own phone number.\n- Significant confusion.\n\nOn the other hand, people in stage five maintain functionality. They typically can still bathe and toilet independently. They also usually still know their family members and some detail about their personal histories, especially their childhood and youth."</string>
+
+    <string name="sixth_stage">"People with the sixth stage of Alzheimer’s need constant supervision and frequently require professional care. Symptoms include:\n\n- Confusion or unawareness of environment and surroundings.\n- Inability to recognize faces except for the closest friends and relatives.\n- Inability to remember most details of personal history.\n- Loss of bladder and bowel control.\n- Major personality changes and potential behavior problems.\n- The need for assistance with activities of daily living such as toileting and bathing.\n- Wandering"</string>
+
+    <string name="seventh_stage">"Stage seven is the final stage of Alzheimer’s. Because the disease is a terminal illness, people in stage seven are nearing death. In stage seven of the disease, people lose the ability to communicate or respond to their environment. While they may still be able to utter words and phrases, they have no insight into their condition and need assistance with all activities of daily living. In the final stages of Alzheimer’s, people may lose their ability to swallow."</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
+
+
+
+
